@@ -20,6 +20,9 @@ footer {
   background: url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   background-size: contain;
 }
+.about, .shedule, .author, .buy {
+  background-color: #eee;
+}
 
 .itd_play {
   background-color: var(--color1);
@@ -60,6 +63,9 @@ footer {
   color: var(--bs-white);
   background-color: var(--color1);
 }
+.btn_itd-2 {
+  width: 200px;
+}
 
 /* modal-video */
 .embed-container {
@@ -80,9 +86,6 @@ footer {
   height: 100%;
 }
 /* о нас */
-.about, .shedule {
-  background-color: #eee;
-}
 .about i {
   font-size: 25px;
 }
@@ -115,8 +118,43 @@ footer {
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
 }
-color: var(--bs-white); {
-  color: var(--bs-white);
+/* Процесс обучения */
+.learning h5 {
+  padding: 25px;
+  border: solid 3px var(--color1);
+}
+/* Об авторе */
+.author {
+  padding-bottom: 0;
+}
+.itd_img {
+max-width: 260px;
+}
+/* Отзывы */
+.itd_people {
+  margin: 0 auto 15px;
+  width: 130px;
+  height: 130px;
+  border: solid 3px var(--color1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  margin: 15px auto 30px;
+  width: 100px;
+  height: 3px;
+  background-color: var(--color2);
+}
+/* footer */
+.footer a {
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
 /* цвет */
 .color-1{
