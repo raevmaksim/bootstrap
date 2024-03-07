@@ -80,7 +80,7 @@ footer {
   height: 100%;
 }
 /* о нас */
-.about {
+.about, .shedule {
   background-color: #eee;
 }
 .about i {
@@ -101,6 +101,22 @@ footer {
   width: 100px;
   height: 3px;
   background-color: var(--color1);
+}
+/* Для кого курс */
+.forwhom h5 {
+  padding: 50px;
+  border: solid 3px var(--color1);
+}
+/* программа курса */
+.accordion-button:not(.collapsed) {
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+}
+color: var(--bs-white); {
+  color: var(--bs-white);
 }
 /* цвет */
 .color-1{
